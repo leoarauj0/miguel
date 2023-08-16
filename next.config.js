@@ -1,4 +1,18 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  reactStrictMode: true,
+  pageExtensions: ["page.tsx", "api.ts", "api.tsx", ".tsx"],
 
-module.exports = nextConfig
+  basePath: "/ebnz/saomiguel",
+  reactStrictMode: false,
+
+  // images: {
+  //   domains: ["homologacao.seap.ma.gov.br", "siisp.ma.gov.br"],
+  // },
+
+  compiler: {
+    styledComponents: true,
+  },
+};
+
+module.exports = nextConfig;

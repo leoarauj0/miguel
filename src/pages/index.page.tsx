@@ -181,59 +181,196 @@ export default function Home() {
               >
                 <TabPane tab="Dia 1" key="Dia 1">
                   <br />
+                  <Titulo style={{ textAlign: "center" }}>
+                    Dia 15 de Agosto
+                  </Titulo>
+                  <br />
                   <>{Oracao}</>
+                  <br />
+                  <br />
+                  <Titulo style={{ textAlign: "center" }}>
+                    Evangelho: Mt 18,1-5.10.12-14
+                  </Titulo>
+                  <Texto style={{ textAlign: "center" }}>
+                    Jesus aborda o tema do relacionamento na comunidade cristã,
+                    explorando questões como o perdão e a busca por importância
+                    no reino dos céus. Ele inicia com a pergunta de um adulto
+                    ambicioso sobre quem é o maior no reino celestial,
+                    destacando a inadequação dessa mentalidade e enfatizando
+                    que, embora todos sejam amados por Deus, não somos iguais
+                    aos olhos divinos. Jesus utiliza a figura da criança como um
+                    modelo de virtude, incentivando a conversão e a adoção da
+                    humildade infantil como um caminho para alcançar a plenitude
+                    da fé e da alegria espiritual. A mensagem central é que a
+                    busca por grandeza deve ser substituída pela busca por
+                    virtudes e pela simplicidade da infância espiritual para
+                    experimentar a verdadeira alegria na fé cristã.
+                  </Texto>
                   <br />
                 </TabPane>
 
                 <TabPane tab="Dia 2" key="Dia 2">
                   <br />
+                  <Titulo style={{ textAlign: "center" }}>
+                    Dia 16 de Agosto
+                  </Titulo>
+                  <br />
                   <>{Oracao}</>
+                  <br />
+                  <br />
+                  <Titulo style={{ textAlign: "center" }}>
+                    Evangelho: Mt 18,15-20
+                  </Titulo>
+                  <Texto style={{ textAlign: "center" }}>
+                    No evangelho do dia, Jesus aborda como lidar com situações
+                    em que alguém peca contra nós. Ele nos aconselha a resolver
+                    primeiramente em particular, depois envolver outras pessoas
+                    se necessário, e, em última instância, levar o assunto à
+                    igreja. Isso nos ensina a importância de relevar pequenas
+                    picuinhas e não tornar tudo uma questão grave que mereça
+                    atenção da comunidade. Devemos evitar querer que todos
+                    sintam o mesmo que nós sobre a pessoa que nos feriu,
+                    permitindo que ela seja bem falada por outros, e aprender a
+                    soltar os problemas e seguir em frente, mesmo que doa. Esse
+                    processo envolve perdão, correção, soltura e esquecimento,
+                    com oração e sabedoria de pessoas experientes, lembrando que
+                    algumas vezes, mesmo com as melhores intenções, as pessoas
+                    podem agravar as situações ao invés de ajudar.
+                  </Texto>
                   <br />
                 </TabPane>
 
                 <TabPane tab="Dia 3" key="Dia 3">
                   <br />
+                  <Titulo style={{ textAlign: "center" }}>
+                    Dia 17 de Agosto
+                  </Titulo>
+                  <br />
                   <>{Oracao}</>
+                  <br />
+                  <br />
+                  <Titulo style={{ textAlign: "center" }}>
+                    Evangelho: Mt 18,21-19,1
+                  </Titulo>
+                  <Texto style={{ textAlign: "center" }}>
+                    Nesse trecho, Jesus ensina sobre o perdão, usando uma
+                    parábola sobre um empregado que deve uma grande quantia ao
+                    rei. Esse empregado, representando cada um de nós, recebeu o
+                    perdão do rei, mesmo tendo uma dívida impagável. No entanto,
+                    ao encontrar um companheiro que lhe devia uma pequena
+                    quantia, o empregado se recusa a perdoar, mesmo após ter
+                    sido perdoado. Jesus destaca a importância de perdoar
+                    sempre, lembrando-nos de que todos temos falhas e
+                    necessitamos do perdão divino. Ele nos alerta sobre a
+                    necessidade de soltar os ressentimentos e as mágoas, não
+                    prendendo os outros a dívidas impossíveis de serem pagas, e
+                    nos encoraja a sermos compassivos, já que todos somos
+                    companheiros na fragilidade e no pecado, sendo o perdão o
+                    ponto de partida na vida cristã.
+                  </Texto>
                   <br />
                 </TabPane>
                 <TabPane tab="Dia 4" key="Dia 4">
                   <br />
+                  <Titulo style={{ textAlign: "center" }}>
+                    Dia 18 de Agosto
+                  </Titulo>
+                  <br />
                   <>{Oracao}</>
+                  <br />
+                  <br />
+                  <Titulo style={{ textAlign: "center" }}>
+                    Evangelho: Mt 19,3-12
+                  </Titulo>
+                  <Texto style={{ textAlign: "center" }}>
+                    No evangelho do dia, Jesus aborda temas como o celibato, o
+                    matrimônio e a vocação humana para o amor. A discussão
+                    começa com fariseus questionando sobre a possibilidade de
+                    largar a esposa. Jesus destaca que homens e mulheres foram
+                    criados para serem adultos, capazes de dar e receber amor. O
+                    matrimônio é visto como a união de duas pessoas maduras,
+                    dispostas a deixar pai e mãe, buscando uma união verdadeira.
+                    Jesus enfatiza a importância da amizade, cumplicidade e alma
+                    no matrimônio, alertando que muitos casamentos carecem
+                    desses aspectos, sendo excessivamente focados na carne. Ele
+                    ressalta que o casamento é uma responsabilidade, com um
+                    compromisso de estar juntos na alegria e na tristeza, sendo
+                    uma só carne. Além disso, Jesus menciona o celibato,
+                    destacando que algumas pessoas escolhem essa vida por amor
+                    ao Reino dos Céus, dedicando-se inteiramente a Deus. O
+                    matrimônio deve ser um caminho para o Céu, buscando a
+                    plenitude do amor divino.
+                  </Texto>
                   <br />
                 </TabPane>
                 <TabPane tab="Dia 5" key="Dia 5">
                   <br />
+                  <Titulo style={{ textAlign: "center" }}>
+                    Dia 19 de Agosto
+                  </Titulo>
+                  <br />
                   <>{Oracao}</>
+                  <br />
+                  <br />
+                  <Titulo style={{ textAlign: "center" }}>
+                    Evangelho: Mt 19,13-15
+                  </Titulo>
+                  <Texto style={{ textAlign: "center" }}>
+                    No Evangelho de hoje, destaca-se o magnetismo de Jesus em
+                    relação às crianças, revelando características como doçura,
+                    simplicidade, paciência e alegria. Jesus se deleitava com a
+                    espontaneidade das crianças e, ao ensinar que o Reino dos
+                    Céus pertence a elas, transmitiu a importância da pureza e
+                    humildade presentes em suas atitudes. Devemos questionar o
+                    papel dos adultos, pais, irmãos e professores, em permitir
+                    que as crianças se aproximem de Jesus. A falta de exemplos
+                    de fé e o desinteresse pela religião podem impedir que as
+                    crianças sigam um caminho de fé. O autor enfatiza a
+                    importância do exemplo dos pais, da participação nas
+                    atividades religiosas e do respeito à fé para que as
+                    crianças tenham acesso ao Reino de Deus. A criança é vista
+                    como símbolo do fraco, do simples e do desprovido de
+                    pretensões sociais, representando aqueles prontos para
+                    receber o Reino de Jesus. A oração é feita para que a
+                    simplicidade e a pureza de coração das crianças sirvam de
+                    exemplo para ser fiel a Deus e merecer o Reino dos Céus.
+                  </Texto>
                   <br />
                 </TabPane>
                 <TabPane tab="Dia 6" key="Dia 6">
                   <br />
-                  <>{Oracao}</>
-                  <br />
-                </TabPane>
-                <TabPane tab="Dia 7" key="Dia 7">
-                  <br />
-                  <>{Oracao}</>
-                  <br />
-                </TabPane>
-                <TabPane tab="Dia 8" key="Dia 8">
+                  <Titulo style={{ textAlign: "center" }}>
+                    Dia 20 de Agosto
+                  </Titulo>
                   <br />
                   <>{Oracao}</>
                   <br />
-                </TabPane>
-                <TabPane tab="Dia 9" key="Dia 9">
                   <br />
-                  <>{Oracao}</>
-                  <br />
-                </TabPane>
-                <TabPane tab="Dia 10" key="Dia 10">
-                  <br />
-                  <>{Oracao}</>
-                  <br />
-                </TabPane>
-                <TabPane tab="Dia 11" key="Dia 11">
-                  <br />
-                  <>{Oracao}</>
+                  <Titulo style={{ textAlign: "center" }}>
+                    Evangelho: Lc 1,39-56
+                  </Titulo>
+                  <Texto style={{ textAlign: "center" }}>
+                    O texto aborda a solenidade da Assunção de Nossa Senhora, um
+                    momento importante na vida de Maria, em que ela foi elevada
+                    ao céu de corpo e alma, recebendo a recompensa prometida
+                    àqueles que vivem em Cristo. A morte é considerada o último
+                    inimigo a ser destruído, consequência do pecado, e todos
+                    morremos devido à natureza decaída. A opção de seguir Cristo
+                    é destacada como o caminho para a ressurreição. Paulo fala
+                    sobre os que estão em Cristo e morrem, ressuscitando no
+                    último dia, quando Cristo retornar. A morte também é vista
+                    como a vinda de Cristo para cada indivíduo. Nossa Senhora é
+                    ressaltada como imaculada, sem a consequência do pecado, e
+                    sua Assunção é explicada como uma ascensão de corpo e alma,
+                    resultando na plenitude da ressurreição. O texto afirma que
+                    aqueles que morrem não estão dormindo, mas vivos em Deus,
+                    cada um na glória ou no castigo, aguardando a ressurreição
+                    com o corpo glorioso no último dia. Nossa Senhora e outros
+                    santos intercedem por nós, mas apenas Maria já possui o
+                    corpo glorioso, enquanto os outros o terão na ressurreição.
+                    A ressurreição é vista como um retorno glorioso ou um
+                    destino indesejável, dependendo das ações em vida.
+                  </Texto>
                   <br />
                 </TabPane>
               </Tabs>

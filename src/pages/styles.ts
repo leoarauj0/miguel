@@ -128,8 +128,8 @@ export const TextoSmall = styled.div`
 
 export const Coluna = styled(Col).attrs({
   // flex: "1 1 230px",
-  display: "flex",
-  flexDirection: "row",
+  // display: "flex",
+  // flexDirection: "row",
 })``;
 
 export const Linha = styled(Row).attrs({

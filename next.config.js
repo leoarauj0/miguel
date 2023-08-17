@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   pageExtensions: ["page.tsx", "api.ts", "api.tsx", ".tsx"],
 
-  basePath: "/ebnz/saomiguel",
+  basePath: "/",
   reactStrictMode: false,
 
   // images: {

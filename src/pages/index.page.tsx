@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import { Inter } from "next/font/google";
 
@@ -18,6 +19,7 @@ import {
 import theme from "@/shared/theme";
 import { Tabs } from "antd";
 import TabPane from "antd/lib/tabs/TabPane";
+import dayjs from "dayjs";
 
 const inter = Inter({ subsets: ["latin"] });
 // const { useToken } = theme;
@@ -102,6 +104,47 @@ export default function Home() {
         Cordeiro de Deus, que tirais o pecado do mundo, tende piedade de nós,
         Senhor.
         <br />
+        <br />
+        Rogai por nós, ó glorioso São Miguel, Príncipe da Igreja de Cristo, para
+        que sejamos dignos de Suas promessas.
+        <br />
+        Amém!
+      </Texto>
+      <br />
+      <br />
+
+      <SubTitulo style={{ textAlign: "center" }}>Oremos:</SubTitulo>
+      <Texto style={{ textAlign: "center" }}>
+        Senhor Jesus Cristo, santificai-nos, por uma bênção sempre nova, e
+        concedei-nos, pela intercessão de São Miguel, esta sabedoria que nos
+        ensina a ajuntar riquezas do Céu e a trocar os bens do tempo presente
+        pelos da eternidade. <br />
+        Vós que viveis e reinais em todos os séculos dos séculos. Amém!
+      </Texto>
+
+      <br />
+      <br />
+
+      <SubTitulo style={{ textAlign: "center" }}>Ao final, reza-se:</SubTitulo>
+      <Texto style={{ textAlign: "center" }}>
+        Um Pai Nosso em honra de São Gabriel. <br />
+        Um Pai Nosso em honra de São Miguel Arcanjo. <br />
+        Um Pai Nosso em honra de São Rafael. <br />
+      </Texto>
+
+      <br />
+      <br />
+
+      <SubTitulo style={{ textAlign: "center" }}>Oração:</SubTitulo>
+      <Texto style={{ textAlign: "center" }}>
+        Deus, todo poderoso e eterno, que por um prodígio de bondade e
+        misericórdia para a salvação dos homens, escolhestes para príncipe de
+        Vossa Igreja o gloriosíssimo Arcanjo São Miguel, tornai-nos dignos, nós
+        vo-lo pedimos, de sermos preservados de todos os nossos inimigos, a fim
+        de que, na hora da nossa morte, nenhum deles nos possa inquietar, mas
+        que nos seja dado de sermos introduzidos por ele na presença da Vossa
+        poderosa e augusta Majestade, pelos merecimentos de Jesus Cristo, Nosso
+        Senhor. Amém.
       </Texto>
     </>
   );
@@ -112,6 +155,7 @@ export default function Home() {
       setWidth(window.innerWidth);
       setHeight(window.innerHeight);
     }
+
     window.addEventListener("resize", handleResize);
     handleResize();
     return () => window.removeEventListener("resize", handleResize);
@@ -169,7 +213,7 @@ export default function Home() {
               <Tabs
                 tabBarStyle={{ color: "white", marginLeft: "20px" }}
                 // tabPosition={mobile ? "top" : "right"}
-                // defaultActiveKey="Preso"
+                defaultActiveKey={dayjs().format("DD-MM")}
                 // defaultActiveKey={
                 //   tabId !== undefined ? tabId?.toString() : `${Preso}`
                 // }
@@ -179,7 +223,7 @@ export default function Home() {
                 // }}
                 // style={{ fontSize: "15px", fontWeight: "500" }}
               >
-                <TabPane tab="Dia 1" key="Dia 1">
+                <TabPane tab="Dia 1" key="15-08">
                   <br />
                   <Titulo style={{ textAlign: "center" }}>
                     Dia 15 de Agosto
@@ -191,6 +235,38 @@ export default function Home() {
                   <Titulo style={{ textAlign: "center" }}>
                     Evangelho: Mt 18,1-5.10.12-14
                   </Titulo>
+                  <Texto style={{ textAlign: "center" }}>
+                    Naquele tempo: Os discípulos aproximaram-se de Jesus e
+                    perguntaram: <br />
+                    'Quem é o maior no Reino dos Céus?'
+                    <br /> Jesus chamou uma criança, colocou-a no meio deles e
+                    disse: <br />
+                    'Em verdade vos digo, se não vos converterdes, e não vos
+                    tornardes como crianças, não entrareis no Reino dos Céus.
+                    <br />
+                    Quem se faz pequeno como esta criança, esse é o maior no
+                    Reino dos Céus. <br />E quem recebe em meu nome uma criança
+                    como esta, é a mim que recebe. <br />
+                    Não desprezeis nenhum desses pequeninos, pois eu vos digo
+                    que os seus anjos nos céus vêem sem cessar a face do meu Pai
+                    que está nos céus. <br />
+                    Que vos parece? <br />
+                    Se um homem tem cem ovelhas, e uma delas se perde, não deixa
+                    ele as noventa e nove nas montanhas, para procurar aquela
+                    que se perdeu?
+                    <br /> Em verdade vos digo, se ele a encontrar, ficará mais
+                    feliz com ela, do que com as noventa e nove que não se
+                    perderam. <br />
+                    Do mesmo modo, o Pai que está nos céus não deseja que se
+                    perca nenhum desses pequeninos'.
+                    <br />
+                    <br /> Palavra da Salvação, glória a vós Senhor.
+                    <br />
+                    <br />
+                  </Texto>
+                  <SubTitulo style={{ textAlign: "center" }}>
+                    Para meditar:
+                  </SubTitulo>
                   <Texto style={{ textAlign: "center" }}>
                     Jesus aborda o tema do relacionamento na comunidade cristã,
                     explorando questões como o perdão e a busca por importância
@@ -209,7 +285,7 @@ export default function Home() {
                   <br />
                 </TabPane>
 
-                <TabPane tab="Dia 2" key="Dia 2">
+                <TabPane tab="Dia 2" key="16-08">
                   <br />
                   <Titulo style={{ textAlign: "center" }}>
                     Dia 16 de Agosto
@@ -240,7 +316,7 @@ export default function Home() {
                   <br />
                 </TabPane>
 
-                <TabPane tab="Dia 3" key="Dia 3">
+                <TabPane tab="Dia 3" key="17-08">
                   <br />
                   <Titulo style={{ textAlign: "center" }}>
                     Dia 17 de Agosto
@@ -270,7 +346,7 @@ export default function Home() {
                   </Texto>
                   <br />
                 </TabPane>
-                <TabPane tab="Dia 4" key="Dia 4">
+                <TabPane tab="Dia 4" key="18-08">
                   <br />
                   <Titulo style={{ textAlign: "center" }}>
                     Dia 18 de Agosto
@@ -303,7 +379,7 @@ export default function Home() {
                   </Texto>
                   <br />
                 </TabPane>
-                <TabPane tab="Dia 5" key="Dia 5">
+                <TabPane tab="Dia 5" key="19-08">
                   <br />
                   <Titulo style={{ textAlign: "center" }}>
                     Dia 19 de Agosto
@@ -337,7 +413,7 @@ export default function Home() {
                   </Texto>
                   <br />
                 </TabPane>
-                <TabPane tab="Dia 6" key="Dia 6">
+                <TabPane tab="Dia 6" key="20-08">
                   <br />
                   <Titulo style={{ textAlign: "center" }}>
                     Dia 20 de Agosto

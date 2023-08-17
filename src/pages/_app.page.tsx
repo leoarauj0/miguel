@@ -4,6 +4,7 @@ import { ThemeProvider } from "styled-components";
 import pt_Br from "antd/lib/locale/pt_BR";
 import theme from "@/shared/theme";
 import { ConfigProvider } from "antd/lib";
+import { Container } from "./styles";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -55,7 +56,18 @@ export default function App({ Component, pageProps }: AppProps) {
           },
         }}
       >
-        <Component {...pageProps} />
+        <Container
+          style={{
+            margin: "-8px",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+
+            height: "100vh",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
+          <Component {...pageProps} />
+        </Container>
       </ConfigProvider>
     </ThemeProvider>
   );

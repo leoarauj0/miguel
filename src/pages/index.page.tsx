@@ -53,116 +53,105 @@ export default function Home() {
   if (width && height) {
     return (
       <>
-        <Container
+        <div
           style={{
-            margin: "-8px",
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-            backgroundColor: "#000000",
+            flex: 1,
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
             height: "100vh",
-            backgroundRepeat: "no-repeat",
           }}
         >
-          <div
+          <Image
+            width={width}
+            height={mobile ? height + 70 : height}
             style={{
-              flex: 1,
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              height: "100vh",
-            }}
-          >
-            <Image
-              width={width}
-              height={height}
-              style={{
-                zIndex: -999,
-                position: "absolute",
+              zIndex: -999,
+              position: "absolute",
 
-                backgroundSize: "cover",
-              }}
-              src={mobile ? BackgroundMobile : Background}
-              alt={"Background"}
-            />
-            <Image
-              // preview={true}
-              width={mobile ? 300 : 400}
-              style={{ padding: "25px", marginTop: "-5vh" }}
-              //height={400}
-              // style={{ borderRadius: "15px" }}
-              src={LogoTitulo}
-              alt={"Logo Titulo"}
-            />
-            <Cards
-              style={{
-                width: mobile ? width / 1.15 : width / 1.5,
-                height: height / 1.5,
-              }}
-            >
-              <Tabs
-                tabBarStyle={{ color: "white", marginLeft: "20px" }}
-                // tabPosition={mobile ? "top" : "right"}
-                defaultActiveKey={dayjs().format("DD-MM")}
-                // defaultActiveKey={
-                //   tabId !== undefined ? tabId?.toString() : `${Preso}`
-                // }
-                // onClick={() => setTab("Preso")}
-                // onTabClick={(key) => {
-                //   setTab(key);
-                // }}
-                // style={{ fontSize: "15px", fontWeight: "500" }}
-              >
-                <TabPane tab="Dia 1" key="15-08">
-                  <Dia1 />
-                </TabPane>
-
-                <TabPane tab="Dia 2" key="16-08">
-                  <Dia2 />
-                </TabPane>
-
-                <TabPane tab="Dia 3" key="17-08">
-                  <Dia3 />
-                </TabPane>
-                <TabPane tab="Dia 4" key="18-08">
-                  <Dia4 />
-                </TabPane>
-                <TabPane tab="Dia 5" key="19-08">
-                  <Dia5 />
-                </TabPane>
-                <TabPane tab="Dia 6" key="20-08">
-                  <Dia6 />
-                </TabPane>
-              </Tabs>
-            </Cards>
-          </div>
-
-          <div
-            className="layout"
-            style={{
-              flex: 1,
-              display: "flex",
-              flexDirection: "row",
-              gap: "5px",
-              justifyContent: "center",
-              alignItems: "center",
-              background: "transparent",
-              backgroundPosition: "center",
               backgroundSize: "cover",
-              height: "5vh",
-              backgroundRepeat: "no-repeat",
-              marginTop: "-5vh",
+            }}
+            src={mobile ? BackgroundMobile : Background}
+            alt={"Background"}
+          />
+          <Image
+            // preview={true}
+            width={mobile ? 300 : 400}
+            style={{ padding: "25px", marginTop: "-5vh" }}
+            //height={400}
+            // style={{ borderRadius: "15px" }}
+            src={LogoTitulo}
+            alt={"Logo Titulo"}
+          />
+          <Cards
+            style={{
+              width: mobile ? width / 1.15 : width / 1.5,
+              height: height / 1.5,
             }}
           >
-            <Image
-              width={20}
-              //height={400}
-              src={Logo}
-              alt={"Logo"}
-            />
-            <TextoSmall>Comunidade Católica Ebenezer</TextoSmall>
-          </div>
-        </Container>
+            <Tabs
+              tabBarStyle={{ color: "white", marginLeft: "20px" }}
+              // tabPosition={mobile ? "top" : "right"}
+              defaultActiveKey={dayjs().format("DD-MM")}
+              // defaultActiveKey={
+              //   tabId !== undefined ? tabId?.toString() : `${Preso}`
+              // }
+              // onClick={() => setTab("Preso")}
+              // onTabClick={(key) => {
+              //   setTab(key);
+              // }}
+              // style={{ fontSize: "15px", fontWeight: "500" }}
+            >
+              <TabPane tab="Dia 1" key="15-08">
+                <Dia1 />
+              </TabPane>
+
+              <TabPane tab="Dia 2" key="16-08">
+                <Dia2 />
+              </TabPane>
+
+              <TabPane tab="Dia 3" key="17-08">
+                <Dia3 />
+              </TabPane>
+              <TabPane tab="Dia 4" key="18-08">
+                <Dia4 />
+              </TabPane>
+              <TabPane tab="Dia 5" key="19-08">
+                <Dia5 />
+              </TabPane>
+              <TabPane tab="Dia 6" key="20-08">
+                <Dia6 />
+              </TabPane>
+            </Tabs>
+          </Cards>
+        </div>
+
+        <div
+          className="layout"
+          style={{
+            flex: 1,
+            display: "flex",
+            flexDirection: "row",
+            gap: "5px",
+            justifyContent: "center",
+            alignItems: "center",
+            background: "transparent",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            height: "5vh",
+            backgroundRepeat: "no-repeat",
+            marginTop: "-5vh",
+          }}
+        >
+          <Image
+            width={20}
+            //height={400}
+            src={Logo}
+            alt={"Logo"}
+          />
+          <TextoSmall>Comunidade Católica Ebenezer</TextoSmall>
+        </div>
       </>
     );
   }

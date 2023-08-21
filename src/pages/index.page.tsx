@@ -27,6 +27,9 @@ import Dia3 from "@/modules/3";
 import Dia4 from "@/modules/4";
 import Dia5 from "@/modules/5";
 import Dia6 from "@/modules/6";
+import Dia7 from "@/modules/7";
+import Dia8 from "@/modules/8";
+import Dia9 from "@/modules/9";
 
 const inter = Inter({ subsets: ["latin"] });
 // const { useToken } = theme;
@@ -122,6 +125,15 @@ export default function Home() {
               </TabPane>
               <TabPane tab="Dia 6" key="20-08">
                 <Dia6 />
+              </TabPane>
+              <TabPane tab="Dia 7" key="21-08">
+                <Dia7 />
+              </TabPane>
+              <TabPane tab="Dia 8" key="22-08">
+                <Dia8 />
+              </TabPane>
+              <TabPane tab="Dia 9" key="23-08">
+                <Dia9 />
               </TabPane>
             </Tabs>
           </Cards>
